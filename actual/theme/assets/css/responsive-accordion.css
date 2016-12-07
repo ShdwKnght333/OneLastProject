@@ -1,0 +1,73 @@
+/*	Responsive Accordion v1.3, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	============================================================================================ */
+
+/*	Table of Contents
+//	==================================================
+//		#Reset
+//		#Themes
+
+
+/*	#Reset
+//	================================================== */
+
+	.responsive-accordion {
+		margin: 0 0 20px 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.responsive-accordion li {
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+
+	.responsive-accordion li:last-child { margin-bottom: 0; }
+
+	.responsive-accordion li .responsive-accordion-head { cursor: pointer; }
+
+	.responsive-accordion li .responsive-accordion-head.active { font-weight: none; }
+
+
+/*	#Themes
+//	================================================== */
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-head {
+		border: 1px solid #DDD;
+		padding: 10px 30px 10px 10px;
+		background: #fafafa;
+		color: #0b8593;
+		line-height: normal;
+		position: relative;
+	}
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-head i {
+		position: absolute;
+		top: 12px;
+		right: 10px;
+	}
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-panel {
+		border: 1px solid #DDD;
+		border-top: 0;
+		padding: 20px;
+		background: #FFF;
+	}
+	#thumbwrap {
+	position:relative;
+	margin:75px auto;
+	width:252px; height:252px;
+}
+.thumb img { 
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0; left:250px; 
+	z-index:1;
+}

@@ -1,0 +1,113 @@
+    .left{
+        left:0;
+        background-color: #F25D59;
+        color:white;
+        z-index:50;
+    }
+    .right{
+        right:0;
+        background-color: #292C3D;
+        color:white;
+    }
+    .col-xs-12 {
+	height: 100%;
+	text-align: center;
+	padding:0;
+    }
+    .col-sm-6 {
+	position: fixed;
+	height: 100%;	
+    }
+    .welcome-text{
+        position: absolute;
+	top: 30%;
+	right:10%;
+	text-align:right;
+	-webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-family:'Raleway', sans-serif;
+        font-size:7vh;
+    }
+    .form-group{
+        position:relative;
+        top:25%;
+    }
+    .sign-in{
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-family:'Raleway', sans-serif;
+        font-size:4.9vh;
+        text-align:left;
+	padding-left:30px;
+	padding-bottom:20px;
+    }
+    .input-group{
+        border:1px;
+        border-style: solid;
+        border-color: #4B3043;
+        display:inline-block;
+        left:-1%;
+        z-index:5;
+        width:102%;
+        border-radius:0px;
+        margin-right:0 0 0 0;
+        background-color:#2B3043;
+    }
+    .input-fields{
+        font-family:'Raleway', sans-serif;
+        font-size:20px;
+        background-color:#2B3043;
+        height:40px;
+        padding-right:30px;
+        padding-left:10px;
+        padding-bottom:3px;
+        vertical-align:middle;
+        width:90%;
+        border:none;
+    }
+    .input-group:focus{
+        box-shadow: 0px 0px 0px 0px #F25D59;
+    }
+    i{
+        color:#FF5D59;
+        padding-left:10px;
+        margin: 0 auto;
+    }
+    .btn-block{
+        background-color:#2B3043;
+        border-top-right-radius: 2em;
+        border-bottom-right-radius: 2em;
+        width:50%;
+        color:white;
+        margin-top:20px;
+        position:relative;
+        left:-1%;
+        font-family:'Raleway', sans-serif;
+        font-size:3.5vh;
+        border:1.75px;
+        border-style: solid;
+        border-color:#F25D59;
+    }
+    .btn-block:focus{
+        border-style: solid;
+        color:white;
+        border-color:#F25D59;
+        box-shadow: 0 0 2px 1px #F25D59;
+        -moz-outline-style: none;
+    }
+    .btn-block:hover{
+        color:white;
+    }
+    img{
+	position:absolute;
+	left:0;
+	width:150px;
+    }

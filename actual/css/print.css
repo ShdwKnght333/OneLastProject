@@ -1,0 +1,70 @@
+@media print {
+    div{page-break-inside: avoid;}
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.foot{
+	margin: 30px 30px 30px 30px;
+	width: 800px;
+}
+.foot img{
+	float: left;
+	width: 100px;
+	height: 75px;
+}
+.foot h5{
+	display: inline-block;
+	clear: left;
+	text-align: center;
+}
+.table-responsive tr{
+	font-weight:bold;
+}
+.table-responsive td{
+	height:25px;
+}
+.table-responsive table{
+	width:790px;
+}
+table{
+	font-size: 85%;
+	clear:both;
+	width:800px;
+	margin: 30px 30px 30px 30px;
+}
+.header{
+	margin: 20px 20px 20px 30px;
+	width: 800px;
+}
+.header img{
+	float: left;
+	height:100px;
+	width: 400px;
+	margin: 0 0 20px 0;
+}
+.header h2{
+	margin: 0 0 10px 20px;
+	font-weight: bold;
+	float: right;
+	clear: all;
+
+}
+.header h3{
+	position: relative;
+	margin: 0 0 10px 20px;
+	float: right;
+	clear: right;
+}
+.right-align{
+	text-align:right;
+}
+.padd{
+	padding-top:6px;
+}
