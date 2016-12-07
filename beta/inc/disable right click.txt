@@ -1,0 +1,33 @@
+<script language="JavaScript" type="text/javascript">
+ 
+ 
+// This is the Right Click OFF or Disable Function Support In all Major Browsers
+function clickEVENTNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+//alert("This is the simple javascript Right Clieck Disabled or OFF Function");
+return false;
+}
+}
+}
+ 
+// This is the Right Click OFF or Disable Function Support By Internet Explorer
+function clickEVENTIE4(){
+if (event.button==2){
+//alert("This is the simple javascript Right Clieck Disabled or OFF Function");
+return false;
+}
+}
+ 
+ 
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickEVENTNS4; // This Right Click Disable or OFF Code For All Browsers
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickEVENTIE4; // This Right Click Disable or OFF Code For Internet Explore of IE
+}
+ 
+document.oncontextmenu=new Function("return false"); // This Function Disable Right Click OFF or Disable
+ 
+</script>
