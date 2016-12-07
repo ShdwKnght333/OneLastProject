@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+Disallow: /fzadmin/
+Disallow: /partner/
+Disallow: /conf/
+Disallow: /beta/
+Disallow: /css/
+Disallow: /inc/
+Disallow: /theme/
+Disallow: /upload/
