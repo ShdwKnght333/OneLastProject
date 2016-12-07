@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#f3f3f5;
+}
+.content--partner .content__row__wrapper {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding: 0 1rem 5rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+	top:50px;
+}
+
+.content--partner .content__row__col__intro {
+    width: 410px;
+}
+
+.content__intro, .content__row {
+    font-size: 1.2rem;
+}
+
+.content__intro__title {
+    font-size: 2.8rem;
+    margin-top: 0;
+	color:#fff;
+}
+
+@media screen and (max-width: 760px){
+.content--partner .content__row__wrapper .content__row__col {
+    width: auto;
+    margin: 0;
+}
+}
+@media screen and (max-width: 1020px){
+.content__intro__title {
+    font-size: 1.8rem;
+}
+.content__intro__title {
+    font-size: 2.8rem;
+    margin-top: 0;
+}
+.content__intro h2 {
+    font-size: 2.15em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+*, :after, :before {
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    font-variant-ligatures: no-common-ligatures;
+}
+* {
+    box-sizing: border-box;
+}
+}
+
+.content--partner .content__intro__txt {
+	font-size:1.5rem;
+}
+
+@media screen and (max-width: 1020px){
+.content--partner .content__row__col__formfield {
+    width: 350px;
+}
+}
+
+.content--partner .content__row__col__formfield {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 1rem 3rem 3rem;
+    background: rgba(0,0,0,.3);
+    width: 490px;
+}
+
+.content--partner .form--button, .content--partner .form--field {
+    height: 3rem;
+    border-radius: 3px;
+}
+
+.content--partner .form--label {
+    margin: 0 0 .5rem;
+}
+
+.content--partner .form--error {
+    visibility: hidden;
+    font-size: 1rem;
+    padding-top: .2rem;
+    line-height: 1;
+}
+
+.content--partner .form--field.invalid+.form--error {
+    visibility: visible;
+    color: #E4D50D;
+}
+
+.content--partner .form--button {
+    margin-top: 1.5rem;
+    line-height: normal;
+    text-align: center;
+}
+
+.content--partner .form--button, .content--partner .form--field {
+    height: 3rem;
+    border-radius: 3px;
+}
+
+.buttonp {
+    display: inline-block;
+    background-color: #ff554e;
+    color: #f9fafa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1;
+    padding: .85rem 2.25rem .75rem;
+    border-radius: 5px;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+	border: none;
+    font-size: 1.2rem;
+}
+.buttonp:hover{
+	background-color: #d61f26;	
+}
+
+.app1{
+	background:#d61f26;
+	height: 809px;
+	display:block;
+	width:100%;
+	margin-top:1px;
+}
+
+.join-form {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.join-form h3 {
+  margin: 0 0 4px 0;
+}
+.join-form .widget-inner {
+  margin-top: 40px;
+}
+.join-form #email, .join-form #name, .join-form #restaurant,.join-form #city,.join-form #pincode,.join-form #address,.join-form #contact, .join-form textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.join-form input.mainBtn {
+  width: auto;
+}
+.join-form textarea {
+  min-height: 160px;
+}
